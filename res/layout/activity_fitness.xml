@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/zig_white"
+        >
+        <RelativeLayout
+			android:id="@+id/adView"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_alignParentTop="true"
+			/>
+        <VideoView  
+            android:id="@+id/vv_finess_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/adView"
+            android:layout_centerHorizontal="true"
+            />
+        
+        <ListView 
+            android:id="@+id/lv_finess_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/vv_finess_detail"
+            />
+    </RelativeLayout>
+    
+

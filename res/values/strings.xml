@@ -1,0 +1,411 @@
+<resources>
+
+    <string name="app_name"> 我爱练肌肉</string>
+<!--     <string name="title_muscle_detail">选择您要锻炼的方式</string> -->
+<!--     <string name="title_muscle_list">选择您要想练的肌肉</string> -->
+    <string-array name="muscles">
+        <item >肩肌</item>
+        <item >胸肌</item>
+        <item >腹肌</item>
+        <item >背肌</item>
+        <item >二头肌</item>
+        <item >三头肌</item>
+        <item >腿肌</item>
+    </string-array>
+    
+    <!-- 肩肌 -->
+    <string-array name="shoulder_name">
+        <item>杠铃立正划船</item>
+        <item>肩平举哑铃或杠铃</item>
+        <item>俯身哑铃侧平举</item>
+        <item>坐姿哑铃推举</item>
+    </string-array>
+    
+    <string-array name="shoulder_description">
+        <item>杠铃立正划船是一个训练大肌肉的复合性动作，这个动作主要是训练三角肌前束，同时也辅助的训练了斜方肌和三角肌中束。</item>
+        <item>肩平举哑铃或杠铃是单独集中锻炼三角肌前束。</item>
+        <item>哑铃俯身侧平举是后肱三头肌的一种有效锻炼方法。</item>
+        <item>肩上哑铃推举对锻炼坚实的肩膀很有帮助。</item>
+    </string-array>
+    
+    <!-- 胸肌 -->
+    <string-array name="pectoralis_name">
+        <item>杠铃仰卧推举</item>
+        <item>膝关节俯卧撑</item>
+        <item>哑铃推举</item>
+        <item>哑铃飞鸟</item>
+    </string-array>
+    <string-array name="pectoralis_description">
+        <item>绝大多数的冠军健美运动员把仰卧推举作为锻炼上身最好的动作。</item>
+        <item>膝关节俯卧撑这个动作侧重在胸内侧。</item>
+        <item>哑铃推举侧重在胸肌练习。</item>
+        <item>哑铃飞鸟能对胸肌内侧有很好的锻炼效果，一定要保证动作的协调统一，不然就练出不对称的胸肌了哦。</item>
+    </string-array>
+    
+    <!-- 腹肌 -->
+    <string-array name="abdominal_name">
+        <item>仰卧伸手</item>
+        <item>仰卧起坐</item>
+        <item>交替扭转收腹</item>
+        <item>坐姿屈伸腿</item>
+    </string-array>
+    <string-array name="abdominal_description">
+        <item>此动作侧重上腹部。</item>
+        <item>厄，这个没什么好讲的。</item>
+        <item>交替扭转收腹对侧腹肌有很好的刺激作用</item>
+        <item>坐姿屈伸腿能够有效的刻画股四头肌的形状和线条动作，用此动作锻炼能够让大腿前侧的肌肉线条更加的清晰。</item>
+    </string-array>
+    
+    <!-- 背肌 -->
+    <string-array name="back_name">
+        <item>宽握引体向上</item>
+        <item>单臂哑铃划船</item>
+        <item>哑铃直腿上提</item>
+        <item>俯立哑铃划船</item>
+    </string-array>
+    <string-array name="back_description">
+        <item>宽握引体向上最有利于增加背阔肌的宽度，尤其对上背阔肌冲击最大。</item>
+        <item>这是背肌训练中必要和基本的练习，它能孤立锻炼背部两侧肌群，尤其能锻炼上背肌群，使背部厚实并拥有清晰的线条。</item>
+        <item>哑铃直腿上提侧重点是背阔肌、竖脊肌（臀部上方）。</item>
+        <item>俯立哑铃划船侧重上背肌群，特别是背阔肌以及上臂肱二头肌</item>
+    </string-array>
+    
+    <!-- 二头肌 -->
+    <string-array name="biceps_name">
+        <item>反握杠铃弯举</item>
+        <item>坐姿哑铃弯举</item>
+        <item>哑铃交替弯举</item>
+        <item>仰卧哑铃弯举</item>
+    </string-array>
+    <string-array name="biceps_description">
+        <item>能拥有高高隆起的上臂屈肌，是健美爱好者十分关注和梦寐以求的，因而反握杠铃弯举深受大家青睐。</item>
+        <item>坐姿哑铃弯举侧重锻炼肱二头肌、肱肌、肱挠肌</item>
+        <item>哑铃交替弯举雕塑和分离肱二头肌，增加肱二头肌的围度、突出肌峰。</item>
+        <item>仰卧哑铃弯举通过最大的动作幅度打造整块肱二头肌。</item>
+    </string-array>
+    
+    <!-- 三头肌 -->
+    <string-array name="triceps_name">
+        <item>俯立臂屈伸</item>
+        <item>仰卧垂屈伸</item>
+        <item>哑铃颈后屈伸</item>
+        <item>哑铃颈后臂屈伸</item>
+    </string-array>
+    <string-array name="triceps_description">
+        <item>俯立臂屈伸主要强化肱三头肌的孤立训练动作，重复此动作至肌肉有酸痛感，锻炼效果会更明显。</item>
+        <item>仰卧垂屈伸是锻炼肱三头肌最基础的动作，贯穿练习肱三头肌各个阶段的重要动作，也是最有效的动作之一</item>
+        <item>哑铃颈后屈伸对肱三头肌长头刺激更多，很多人认为此方法很有用。</item>
+        <item>此动作锻炼三头肌，故采用站姿、坐姿，以及单臂分别锻炼、双臂同时锻炼均可。</item>
+    </string-array>
+    
+    <!-- 腿肌 -->
+    <string-array name="crureus_name">
+        <item>俯身后压腿</item>
+        <item>侧身下压健身球</item>
+        <item>站姿提踵</item>
+        <item>哑铃深蹲</item>
+        <item>屈腿提臀</item>
+    </string-array>
+    <string-array name="crureus_description">
+        <item>俯身后压腿对腿肌的拉伸锻炼效果不错。</item>
+        <item>侧身下压健身球主要刺激大腿内侧肌肉。</item>
+        <item>站姿提踵是应用最多、最经典的一个动作，一般采用史密斯机上颈后负重来完成提踵。主要健美小腿肌群，美化小腿曲线。</item>
+        <item>哑铃深蹲这一训练主要增强大腿股四头肌和臀肌，减少脂肪。</item>
+        <item>屈腿提臀能够消耗掉更多的脂肪，收紧腰腹、提臀、美背、拉伸腿形，无所不能。</item>
+    </string-array>
+    
+    <!-- 杠铃立正划船 -->
+    <string-array name = "gllzhc">
+        <item>三头肌和斜方肌，其次是肱二头肌和前臂。</item>
+        <item>手背向前握住横杠中间，间距与肩同宽，两臂下垂腿前。</item>
+        <item >上拉至接近颈前水平位，手臂肘部与肩一样高。</item>
+        <item >持铃慢慢贴身提起，两肘上提始终处于握手上方，直到上拉至接近颈前水平位，稍停。然后，循原路慢慢贴身放下至下垂于腿前。</item>
+        <item >把握好握距，上提过承受贴近身体，同时保持身体挺直。</item>
+        <item >在家的话可以采用一对哑铃代替杠铃。</item>
+    </string-array>
+    
+    <!-- 肩平举哑铃或杠铃 -->
+    <string-array name="jpjylhgl">
+        <item >上胸部和三头肌前束。</item>
+        <item >站立手持哑铃或杠铃于腿前。</item>
+        <item >把哑铃举到平肩的高度。</item>
+        <item >以肩膀为轴心，手臂保持伸直上摆至平肩的高度，同时注意身体挺直。</item>
+        <item >如果采用哑铃时，以泉眼向前，持铃于体前上举。这种方法是单独集中锻炼三角肌前束。选择合适的重量，不是采用极限重量。</item>
+        <item >坐姿、站姿均可。</item>
+    </string-array>
+    
+    <!-- 俯身哑铃侧平举 -->
+    <string-array name="fsylcpj">
+        <item >三头肌和肱三头肌。</item>
+        <item >俯卧在倾斜的卧推凳上，手持哑铃。</item>
+        <item >手臂上摆至与平肩的高度。</item>
+        <item >运动过程保持手臂伸直，避免曲臂举起哑铃，联系过程将主要力量集中在三投机商，肱三头肌作为次要的补充力量，选择合适的重量避免动作变形。</item>
+        <item >哑铃俯身侧平举是后肱三头肌的一种有效锻炼方法。</item>
+        <item >在家锻炼可以直接采用身体前倾成半蹲状的姿势，卧推板不是必需的。</item>
+    </string-array>
+    
+    <!-- 坐姿哑铃推举 -->
+    <string-array name="zzyltj">
+        <item >斜方肌、三头肌</item>
+        <item >坐在卧推板上，腰部保持直立，手持哑铃，手臂成直角。</item>
+        <item >举起哑铃指头上方，上臂伸展。</item>
+        <item >伸展肌肉，保持双手哑铃平衡，把哑铃举至头上方。</item>
+        <item >肩上哑铃推举对锻炼坚实的肩膀很有帮助。</item>
+        <item ></item>
+    </string-array>
+    
+<!--    杠铃仰卧推举  -->
+    <string-array name="glywtj">
+        <item >胸大肌、三角肌和肱三头肌。</item>
+        <item >仰卧在卧推板上，杠铃在乳头线位置，双手握杠铃间距比肩稍宽。</item>
+        <item >举起杠铃至双手伸直。</item>
+        <item >缓慢举起杠铃至手臂伸直到最高点。两臂向两侧张开弯曲，杠铃下落至乳头线上方，动作缓慢。</item>
+        <item >不要把背和臀部拱起或憋气，这样会使肌肉失去控制，是危险的。绝大多数的冠军健美运动员把仰卧推举作为锻炼上身最好的动作。</item>
+        <item >在健身房的卧推架有好几种，但都大同小异。图示的没有保护装置，初学者请务必选好重量，最好请同伴在一旁帮忙。</item>
+    </string-array>
+    
+    <!-- 膝关节俯卧撑 -->
+    <string-array name="xgjfwc">
+        <item >胸内肌、三头肌。</item>
+        <item >双膝着地，用软垫保护，双手与肩同宽放置。</item>
+        <item >身体下落至肩膀将要触及手背。</item>
+        <item >手臂靠近身体，握距与肩同宽。下落过程也要慢，切勿利用身体重力贪图速度。</item>
+        <item >这个动作侧重在胸内侧，因此采用的是窄握距且手臂靠近身体的方式。若是宽握距（大概到肘部位置）普通的俯卧撑则侧重在胸大肌，则不应该膝部着地而是直接腿部。</item>
+        <item ></item>
+    </string-array>
+    
+    <!-- 哑铃推举 -->
+    <string-array name="yltj">
+        <item >胸大肌、三头肌和肱三头肌。</item>
+        <item >仰卧在健身球（卧推板）上，手持哑铃。上臂与身体呈直角，同时与前臂成直角。</item>
+        <item >双手伸直至胸前方，同时双手靠近，与肩同宽的位置。</item>
+        <item >握手处上推至最高点的轨迹是一条弧线，而不是直线上去，也就是先上推同事慢慢收拢靠近，有一个挤压胸大肌的过程。</item>
+        <item >手臂下落时不用伸直，成直角即可，此动作侧重在胸肌练习。若手臂伸直则偏重在臂力的训练，能举起的重量也减少。动作有一定危险性，注意防滑，以防哑铃滑落。</item>
+        <item >这是在家练胸肌的绝好方式了，器材仅需一对哑铃。一段时间口，可以尝试上斜和下斜的板，这样练得才全面哦。上斜、下斜的动作完全一样，仅仅是调整一下架子的角度而已。</item>
+    </string-array>
+    
+    <!-- 哑铃飞鸟 -->
+    <string-array name="ylfn">
+        <item >前三角肌、胸大肌。</item>
+        <item >在哑铃凳上，双手举起哑铃，肘部微曲。</item>
+        <item >手臂弯曲90度，这样可避免因肘部拉伤，同时哑铃下落至身体同一高度处。</item>
+        <item >慢慢放低哑铃，呈现画弧线的动作至结束位置。</item>
+        <item >哑铃飞鸟能对胸肌内侧有很好的锻炼效果，一定要保证动作的协调统一，不然就练出不对称的胸肌了哦。注意此动作上臂和前臂不需要成直线的，不然造成肘部拉伤。</item>
+        <item >还有上斜、下斜，一样的动作，架子倾斜35 "en dash"45度。</item>
+    </string-array>
+    
+    <!-- 仰卧伸手 -->
+    <string-array name="ywss">
+        <item >上腹部位。</item>
+        <item >仰卧在地上，双腿自然曲放，双手叠放伸直。</item>
+        <item >双手伸直膝关节处，主要是上腹收缩至极限。</item>
+        <item >双手缓慢前伸，腰臀部贴着地面，利用上腹肌收缩抬起上身，保持静止一秒钟。</item>
+        <item >此动作侧重上腹部，故收缩用力集中在上腹，这就要求腰部位置（肚脐下）贴着地板，靠上腹用力抬起上身。身体下落时尽量不要让肩部靠住地板就再次起来，这样刺激效果更好。</item>
+        <item ></item>
+    </string-array>
+    
+    <!-- 仰卧起坐 -->
+    <string-array name="ywqz">
+        <item >腹直肌。</item>
+        <item >自然平躺，双腿伸直上举，双手伸直平放两侧。</item>
+        <item >身体上抬至双手能触及脚或脚腕处，但尽量保持双腿伸直。</item>
+        <item >利用腹部收缩用力抬起上身来让手部触及双脚，而不是弯曲双腿达到目的。</item>
+        <item >这种全民都会的，色光，还要我告诉你要点么？</item>
+        <item >还有一种相反的方式，身体贴在倾斜的卧推板上（头在上方），双手抓紧卧推板，通过收腹来抬起双腿至于地面垂直，无论上升还是下落动作缓慢同时保持双腿伸直。比传统的仰卧起坐有效哦。</item>
+    </string-array>
+    
+    <!-- 交替扭转收腹 -->
+    <string-array name="jtnzsf">
+        <item >下腹部位和侧腹肌。</item>
+        <item >仰卧平板上，两腿自然屈伸，双手放头后方。</item>
+        <item >提起的腿的膝关节尽量靠近对应一侧的肩部即可，尽量尝试用肘部触及膝关节。</item>
+        <item >身体抬起，侧向左方，同时抬起左腿；侧向右方是则抬起右腿。</item>
+        <item >此动作对侧腹肌有很好的刺激作用，运动过程注意有一个身体扭转侧向一方的过程，利用腰腹发力。</item>
+        <item >侧腹肌锻炼的好方法，无需器材，平时不去健身房的时候在家练习最好不过了。</item>
+    </string-array>
+    
+    <!-- 坐姿屈伸腿 -->
+    <string-array name="zzqst">
+        <item >下腹部。</item>
+        <item >坐在卧推板上，双手抓稳，抬起双脚。</item>
+        <item >收起双腿，使膝关节尽量靠近胸前。</item>
+        <item >坐稳在长凳上，双手固定住身体。腹肌使力，屈伸双腿。</item>
+        <item >尽量保持上身不做大幅度的移动，靠腹肌发力收起双腿，小腿自然弯曲即可。</item>
+        <item ></item>
+    </string-array>
+    
+    <!-- 宽握引体向上 -->
+    <string-array name="kwytxs">
+        <item >背阔肌和肩部肌群。</item>
+        <item >两手正手宽握距（大概两倍肩宽），腰背以下部位放松，背阔肌充分伸长。</item>
+        <item >屈臂引体上开至颈前锁骨处（颈后就抵住肩颈部)，使之接近或触及单杠。</item>
+        <item >吸气，集中背阔肌的收缩力，屈臂引体上开至颈前锁骨处，稍停2-3秒。然后呼气，以背阔肌的收缩力量控制住，使身体慢慢下降还原。</item>
+        <item >动作过程中身体不要前后摆动利用惯性给予助力，腿不能前后摆动；全身下垂时，肩胛部要放松，使背阔肌充分伸长。</item>
+        <item >因为标准引起向上重复次数过少。可在健身房使用综合器械做颈前下拉或背后下拉代替，同样采用宽握距，整个动作原理完全一样，引体向上是拉起自身体重，利用器材则可以选择拉起的重量，适合初学者。</item>
+    </string-array>
+    
+    <!-- 单臂哑铃划船 -->
+    <string-array name="dbylhc">
+        <item >背阔肌、大圆肌。</item>
+        <item >单手持哑铃，另一只手扶在卧推板上，同侧腿可跪在板上。</item>
+        <item >哑铃提起至两臂成直角，肘部稍高于背部。</item>
+        <item >保持身体稳定，靠背部使力提起哑铃至最高点，稍停留后缓慢复原。</item>
+        <item >有意识的收缩背部肌肉，而非手臂肌肉，记得两边做同样的次数和组数。</item>
+        <item ></item>
+    </string-array>
+    
+    <!-- 哑铃直腿上提 -->
+    <string-array name="ylztst">
+        <item >背阔肌、竖脊肌。</item>
+        <item >身体站立，手持哑铃。</item>
+        <item >膝关节微曲，哑铃下落至膝关节处。</item>
+        <item >身体缓慢前倾，同时臀部向后保持身体平衡，膝关节稍微弯曲。</item>
+        <item >使力的地方在腰部，即臀部上方，有人称为竖脊肌。</item>
+        <item ></item>
+    </string-array>
+    
+    <!-- 俯立哑铃划船 -->
+    <string-array name="flylhc">
+        <item >背阔肌。</item>
+        <item >身体成半蹲状站稳，手持哑铃。</item>
+        <item >提起哑铃至两臂角度小于90度，肘部稍高于背部。</item>
+        <item >背部使力，并非手臂肌肉发力。</item>
+        <item >这个动作和俯身哑铃侧平举很相似。不同的在于，侧平举手臂是伸直的，那样最受力的是肩部三角肌的地方。而划船或飞鸟手臂是有角度的。而且采用的哑铃重量也是很大区别，手臂伸直的动作一般不用太重的哑铃，不然肘部容易拉伤。</item>
+        <item ></item>
+    </string-array>
+    
+    <!-- 反握杠铃弯举 -->
+    <string-array name="fwglwj">
+        <item >肱二头肌，其次前臂肌。</item>
+        <item >反握杠铃，握距肩宽。</item>
+        <item >杠铃提至胸前，靠近身体。</item>
+        <item >以肘关节为支点，前臂由腿前向上成半圆状弯起至肩前。然后，慢慢地循原路放下至腿前。</item>
+        <item >训练要点：在整个动作过程中，两上臂始终贴于体侧，以肘部为轴心，在举杠铃的同时，使躯干稍微向后仰起会、更有效些。</item>
+        <item >在家锻炼采用哑铃代替即可，动作完全一样的。站姿和坐姿均可，但保持身体尽量不要弯曲。</item>
+    </string-array>
+    
+    <!-- 坐姿哑铃弯举 -->
+    <string-array name="zzylwj">
+        <item >二头肌。</item>
+        <item >手持哑铃做卧推板上，肘部抵住大腿，另一手抓紧另一只大腿保持身体稳定。</item>
+        <item >弯举哑铃至抵达胸前。</item>
+        <item >弯举回来的哑铃到胸前部位，为了效果更好，此时可以收缩一下二头肌。</item>
+        <item >做在板凳上，身体压低，这个把力可以集中在手臂。同时尽量用手关节弯曲使力，而不是胸肌发力。</item>
+        <item ></item>
+    </string-array>
+    
+    <!-- 哑铃交替弯举 -->
+    <string-array name="yljtwj">
+        <item >二头肌。</item>
+        <item >双手正握哑铃，肘部微曲。</item>
+        <item >哑铃弯举到大概平胸位置，即拳心大概到乳头的高度。</item>
+        <item >一边手先弯举，等这边恢复开始位置后再做另一边手。</item>
+        <item >动作还原到开始位置时注意不用完全伸直手臂，以免再起弯举时拉伤肘部。</item>
+        <item ></item>
+    </string-array>
+    
+    <!-- 仰卧哑铃弯举 -->
+    <string-array name="ywylwj">
+        <item >二头肌。</item>
+        <item >仰卧卧推板上，手持哑铃，肘部微曲。</item>
+        <item >抬起哑铃至平胸位置。</item>
+        <item >通过手臂（主要二头肌）发力使两手臂的夹角变小，从而弯举起哑铃。</item>
+        <item >注意观察开始位置的图示，肘部稍微弯曲保护肘关节。脚可以放置在卧推架上，成弯曲状。</item>
+        <item ></item>
+    </string-array>
+    
+    <!-- 俯立臂屈伸 -->
+    <string-array name="flbqs">
+        <item >肱三头肌。</item>
+        <item >身体前倾成半蹲状，保持身体平衡。手持哑铃，肘部稍高于后背。</item>
+        <item >哑铃下落至膝关节处，两臂接近直角。</item>
+        <item >上臂贴身，固定肘部位置，持铃向后上方举起至臂伸直，再慢慢放下还原。</item>
+        <item >采用“孤立训练原则”，持铃至全臂伸直时，使肱三头肌彻底收缩，保持静止并默数1、2、3，然后再放下还原。此动作练三头肌，上臂应保持不动，靠三头肌发力把前臂后摆至手臂成一直线。</item>
+        <item ></item>
+    </string-array>
+    
+    <!-- 仰卧锤屈伸 -->
+    <string-array name="ywcqs">
+        <item >三头肌。</item>
+        <item >仰卧在卧推板上，双腿自然放下，手持哑铃合拢在胸前。</item>
+        <item >前臂伸展至整个手臂成直线。</item>
+        <item >保持上臂（靠胳膊的部分）不动，仅前臂弯举起哑铃至手臂伸直。</item>
+        <item >上臂保持不动，不然会牵连到胸肌，锻炼的侧重点就发生了改变。虽然肌肉没有孤立的，但每个动作都有锻炼的侧重点，按照要求才能有针对性的锻炼出肌肉。</item>
+        <item ></item>
+    </string-array>
+    
+    <!-- 哑铃颈后屈伸 -->
+    <string-array name="yljhqs">
+        <item >三头肌。</item>
+        <item >身体站立，一手叉腰稳住上身，另一手持哑铃举高在头上方。</item>
+        <item >肘关节弯曲，前臂放下至哑铃在头后方。</item>
+        <item >保持上臂的不动，以肘部为轴心，三头肌发力弯举起哑铃。</item>
+        <item >身体要稳住，可以采用坐姿锻炼，上臂尽量不移动，做完一组后再换手。</item>
+        <item ></item>
+    </string-array>
+    
+    <!-- 哑铃颈后臂屈伸 -->
+    <string-array name="yljhbqs">
+        <item >肱三头肌。</item>
+        <item >双手持哑铃举起在头上方，两手靠拢，肘部与肩膀同宽。</item>
+        <item >哑铃下方到最低点，靠近背部位置。</item>
+        <item >持铃以半园弧落下至肩上方，然后，以臂肱三头肌的收缩力，持铃向上举起还原。</item>
+        <item >训练要点：看好图示，肘部靠近耳旁，而且保持肩宽，整个过程尽量保持上臂不动，仅以肘关节为轴心，前臂转动的方式。</item>
+        <item >此动作锻炼三头肌，故采用站姿、坐姿，以及单臂分别锻炼、双臂同时锻炼均可。</item>
+    </string-array>
+    
+    <!-- 俯身后压腿 -->
+    <string-array name="fshyt">
+        <item >大腿后侧及小腿。</item>
+        <item >俯卧在综合器械上，双手握住扶手。</item>
+        <item >小腿弯曲至与大腿成直角即可。</item>
+        <item >以膝盖为轴心，小腿向后弯曲至与大腿成直角，放下的时候同样用力缓慢放下。</item>
+        <item >我去健身房总是看到有人做这个的时候，放下去的时候腿是完全放松的就直接利用器材的重力下去了，结果就是发出震耳欲聋的打铁声！这样的效果是不好的，放下去也要慢，保持用力，这样做一个来回比打铁两个来回要好。</item>
+        <item ></item>
+    </string-array>
+    
+    <!-- 侧身下压健身球 -->
+    <string-array name="csxyjsq">
+        <item >大腿内侧。</item>
+        <item >侧身躺在护垫上，一手支撑头部，上方腿伸直放置在健身球上。</item>
+        <item >大腿用力下压健身球到个人极限。</item>
+        <item >下压到极限后，缓慢松开恢复到开始位置。</item>
+        <item >压个健身球要什么要点，自己慢慢领悟去~</item>
+        <item >没有健身球的话，可以用绑腿沙袋或者悬挂哑铃片在脚腕处，以同样姿势做提腿动作同样可以刺激大腿内侧肌肉。</item>
+    </string-array>
+    
+    
+    <!-- 站姿提踵 -->
+    <string-array name="zztz">
+        <item >小腿肌群。</item>
+        <item >自然站立，挺直身体。</item>
+        <item >脚尖触地，提起脚跟至最高点（个人极限）。</item>
+        <item >以小腿 三头肌的收缩力量，使脚踉跟起到最高位置，小腿肌肉群完全收紧，稍停2～3秒钟，慢慢放下脚跟还原。</item>
+        <item >最简单有效的小腿肌肉锻炼方法。两脚（前脚掌）站在垫木上（或者楼梯级），两脚跟要露在垫木外效果更佳，坚持一段时间后可适当选择合适的负重。</item>
+        <item ></item>
+    </string-array>
+    
+    <!-- 哑铃深蹲 -->
+    <string-array name="ylsd">
+        <item >股四头肌（大腿前方肌肉群）。</item>
+        <item >手持哑铃，身体站立。</item>
+        <item >蹲下至哑铃低于膝关节。</item>
+        <item >自然地蹲下至哑铃低于膝关节即可，不必蹲到屁股到底了。</item>
+        <item >要使大腿强壮首要是发展股四头肌，因为股四头肌是人体最大、最有力的肌肉之一。它由四个头即股直肌、股中肌、股外肌和股内肌组成。动画下蹲过程身体偏后了看起来有点别扭，大家按平时自然蹲下去做就行了，但保持腰板挺直。</item>
+        <item ></item>
+    </string-array>
+    
+    <!-- 曲腿提臀 -->
+    <string-array name="qttt">
+        <item >臀大肌、股二头。</item>
+        <item >自然平躺，双腿弯曲放置地上，双手靠近身体放置。</item>
+        <item >抬起臀部，尽量使肩部、臀部、膝关节成直线。</item>
+        <item >双腿用力蹬，收腹抬起臀部至膝盖、臀部及肩部成直线，以背肩部支撑身体。</item>
+        <item >此动作在家就能轻松完成了，在健身房倒是有点不雅观哈哈。</item>
+        <item ></item>
+    </string-array>
+    
+  
+    
+
+</resources>

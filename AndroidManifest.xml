@@ -1,0 +1,55 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zigtang.fitnesscoach"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- +++++++++++++++++++++多盟广告所需+++++++++++++++++++++++++++ -->
+        <activity
+            android:name="cn.domob.android.ads.DomobActivity"
+            android:theme="@android:style/Theme.Translucent" />
+        <!-- +++++++++++++++++++++腾讯广告所需+++++++++++++++++++++++++++ -->
+        <!-- appid -->
+        <meta-data
+            android:name="APP_ID"
+            android:value="667236AC6BE571A41D31259C75D8D86B" />
+        <activity android:name="com.tencent.exmobwin.banner.MobWINBrowserActivity" />
+        <activity
+            android:name="com.tencent.exmobwin.banner.DialogActivity"
+            android:theme="@android:style/Theme.Dialog" />
+
+        <!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+        <activity android:name=".MuscleListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MuscleDetailActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MuscleListActivity" />
+        </activity>
+        <activity android:name=".FitnessActivity" />
+    </application>
+
+</manifest>
